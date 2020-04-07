@@ -1,0 +1,7 @@
+/* Macro class */
+header{
+    height: 80vh;
+    background-image: url(../img/eyes-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
