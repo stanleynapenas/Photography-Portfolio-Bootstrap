@@ -1,7 +1,38 @@
 /* Macro class */
+body{
+  font
+}
+
 header{
     height: 80vh;
     background-image: url(../img/eyes-bg.jpg);
     background-position: center;
     background-size: cover;
 }
+
+a{
+  cursor: pointer;
+}
+
+/* DEBUG */
+
+.red{
+  background-color: red;
+}
+
+
+/* Nav Bar */
+  
+  .logo {
+    height: 90px;
+    padding: 10px;
+  }
+
+  .nav li{
+    display: inline-block;
+    list-style-type: none;
+  }
+
+  .nav li a{
+    color: white;
+  }
