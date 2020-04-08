@@ -1,73 +1,70 @@
 /* Macro class */
-*{
+* {
   padding: 0;
   border: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   position: relative;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-header{
-    height: 80vh;
-    background-image: linear-gradient(black, black), url(../img/eyes-bg.jpg);
-    background-position: center;
-    background-size: cover;
-    background-blend-mode: saturation;
+header {
+  height: 80vh;
+  background-image: linear-gradient(black, black), url(../img/eyes-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: saturation;
 }
 
-a{
+a {
   cursor: pointer;
   text-transform: uppercase;
   transition: ease-in-out 500ms;
 }
 
-a:hover{
+a:hover {
   text-decoration: none;
   color: white;
   transform: scale(1.05);
   z-index: 1;
 }
 
-img{
+img {
   width: 100%;
 }
 
 /* Text Style */
-h1{
+h1 {
   font-size: 54px;
   font-weight: 700;
 }
 
-h2{
+h2 {
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 0.2em;
   text-transform: uppercase;
 }
 
-span{
+span {
   font-size: 14px;
   font-weight: 300;
 }
 
-
-
 /* DEBUG */
 
-.red{
+.red {
   background-color: red;
 }
 
-section{
+section {
   margin-bottom: 100px;
 }
 
-
 /* Nav Bar */
-.nav{
+.nav {
   position: fixed;
   margin-top: 0;
   width: 100%;
@@ -82,17 +79,17 @@ section{
   transition: ease-in-out 500ms;
 }
 
-.logo:hover{
+.logo:hover {
   text-decoration: none;
   color: white;
   transform: scale(1.2);
 }
 
-.nav li{
+.nav li {
   display: inline-block;
   padding: 15px;
 }
-.nav-link{
+.nav-link {
   position: relative;
   display: inline-block;
   color: white;
@@ -102,46 +99,45 @@ section{
   margin-right: auto;
 }
 
-.nav-link:focus{
+.nav-link:focus {
   background-color: red;
 }
 
 /* Work */
 
-.center{
+.center {
   text-align: center;
   margin-top: 60px;
 }
 
-
-.text-div span{
+.text-div span {
   padding-right: 10px;
   padding-left: 10px;
 }
 
-.top-margin30{
+.top-margin30 {
   margin-top: 30px;
 }
 
-.top-margin60{
+.top-margin60 {
   margin-top: 60px;
 }
 
 /* Images */
 
-.my-images{
+.my-images {
   height: 300px;
   position: relative;
 }
 
-.hover-div{
-  opacity: 0.0;
+.hover-div {
+  opacity: 0;
   text-align: center;
   padding-top: 100px;
 }
 
-.hover-div:hover{
-  opacity: 1.0;
+.hover-div:hover {
+  opacity: 1;
   background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
   top: 0;
@@ -150,67 +146,64 @@ section{
   left: 0;
 }
 
-.landscape1{
+.landscape1 {
   background-image: url(../img/landscape-city.jpg);
   background-position: center;
   background-size: cover;
 }
 
-.landscape2{
+.landscape2 {
   background-image: url(../img/landscape-mountain.jpg);
   background-position: center;
   background-size: cover;
 }
 
-.landscape3{
+.landscape3 {
   background-image: url(../img/landscape-valley.jpg);
   background-position: center;
   background-size: cover;
 }
 
-.portrait1{
+.portrait1 {
   background-image: url(../img/portrait-man.jpg);
   background-position: center;
   background-size: cover;
 }
 
-.portrait2{
+.portrait2 {
   background-image: url(../img/portrait-shorthair-woman.jpg);
   background-position: center;
   background-size: cover;
 }
 
-.portrait3{
+.portrait3 {
   background-image: url(../img/portrait-curlyhair-woman.jpg);
   background-position: center;
   background-size: cover;
 }
 
-.night1{
+.night1 {
   background-image: url(../img/night-cloud.jpg);
   background-position: center;
   background-size: cover;
 }
 
-.night2{
+.night2 {
   background-image: url(../img/night-fireworks.jpg);
   background-position: center;
   background-size: cover;
 }
 
-.night3{
+.night3 {
   background-image: url(../img/night-jungle.jpg);
   background-position: center;
   background-size: cover;
 }
 
-
-
-
 /* ---- JQUERY ---- */
 
 /* TABLET */
-.nav li{
+.nav li {
   margin-top: 10px;
   padding: 0;
 }
