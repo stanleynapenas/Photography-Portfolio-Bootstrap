@@ -1,18 +1,59 @@
 /* Macro class */
+*{
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
 body{
-  font
+  position: relative;
+  font-family: 'Poppins', sans-serif;
 }
 
 header{
     height: 80vh;
-    background-image: url(../img/eyes-bg.jpg);
+    background-image: linear-gradient(black, black), url(../img/eyes-bg.jpg);
     background-position: center;
     background-size: cover;
+    background-blend-mode: saturation;
 }
 
 a{
   cursor: pointer;
+  text-transform: uppercase;
+  transition: ease-in-out 500ms;
 }
+
+a:hover{
+  text-decoration: none;
+  color: white;
+  transform: scale(1.05);
+  z-index: 1;
+}
+
+img{
+  width: 100%;
+}
+
+/* Text Style */
+h1{
+  font-size: 54px;
+  font-weight: 700;
+}
+
+h2{
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+span{
+  font-size: 14px;
+  font-weight: 300;
+}
+
+
 
 /* DEBUG */
 
@@ -20,19 +61,156 @@ a{
   background-color: red;
 }
 
+section{
+  margin-bottom: 100px;
+}
+
 
 /* Nav Bar */
-  
-  .logo {
-    height: 90px;
-    padding: 10px;
-  }
+.nav{
+  position: fixed;
+  margin-top: 0;
+  width: 100%;
+  background-color: #282828;
+  z-index: 100;
+}
 
-  .nav li{
-    display: inline-block;
-    list-style-type: none;
-  }
+.logo {
+  height: 90px;
+  width: auto;
+  padding: 10px;
+  transition: ease-in-out 500ms;
+}
 
-  .nav li a{
-    color: white;
-  }
+.logo:hover{
+  text-decoration: none;
+  color: white;
+  transform: scale(1.2);
+}
+
+.nav li{
+  display: inline-block;
+  padding: 15px;
+}
+.nav-link{
+  position: relative;
+  display: inline-block;
+  color: white;
+  padding: 20px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-link:focus{
+  background-color: red;
+}
+
+/* Work */
+
+.center{
+  text-align: center;
+  margin-top: 60px;
+}
+
+
+.text-div span{
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.top-margin30{
+  margin-top: 30px;
+}
+
+.top-margin60{
+  margin-top: 60px;
+}
+
+/* Images */
+
+.my-images{
+  height: 300px;
+  position: relative;
+}
+
+.hover-div{
+  opacity: 0.0;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.hover-div:hover{
+  opacity: 1.0;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.landscape1{
+  background-image: url(../img/landscape-city.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.landscape2{
+  background-image: url(../img/landscape-mountain.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.landscape3{
+  background-image: url(../img/landscape-valley.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.portrait1{
+  background-image: url(../img/portrait-man.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.portrait2{
+  background-image: url(../img/portrait-shorthair-woman.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.portrait3{
+  background-image: url(../img/portrait-curlyhair-woman.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.night1{
+  background-image: url(../img/night-cloud.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.night2{
+  background-image: url(../img/night-fireworks.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.night3{
+  background-image: url(../img/night-jungle.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+
+/* ---- JQUERY ---- */
+
+/* TABLET */
+.nav li{
+  margin-top: 10px;
+  padding: 0;
+}
